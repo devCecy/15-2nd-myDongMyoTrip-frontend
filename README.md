@@ -1,20 +1,11 @@
-# My Dongmyo Trip
+# 프로젝트 소개
 
-<br><br>
-
----
-
-## ⛩ My Dongmyo Trip ( 마이동묘트립 )
-
-- [마이리얼트립] https://www.myrealtrip.com/
-- 기업 소개: 마이리얼트립은 여행을 떠나기 위해 필요한 모든 것을 쉽고, 빠르게 검색하고 예약할 수 있는 국내 최고의 자유여행 플랫폼입니다. 항공권, 숙박, 에어텔 상품을 비롯하여 전세계 680여개 도시 20,000여개의 현지 투어&티켓 상품을 제공하고 있습니다.
+⛩ 국내 최고의 여행플랫폼인 마이리얼트립 사이트를 클론 했습니다.
+![mydongmyotrip_image](public/images/mydongmyotrip_main_page.png)
 
 ## 👨‍👩‍👧‍👦 팀원
 
-힙스터의 성지 동묘 앞에서 위벤저스 결성!
-
-- Front-end: 김해인(PM), 이하영, 안미현
-- Back-end: 우혁준, 이주형
+프론트 개발자 3명, 백엔드 개발자 2명
 
 ## 📅 개발 기간
 
@@ -22,42 +13,30 @@
 
 ## 🧑‍💻 적용 기술
 
-- Front-end: React.js, React(CRA), React-router, Styled-Components, Hooks
-- Back-end: Django, Python, MySQL, jwt, bcrypt, AWS
-- communication: Git, Trello, Slack
+- HTML/CSS, JavaScript, React(CRA), React-router, Styled-Components, Hooks
+- **협업도구**: Git, Github, Trello, Slack
 
-## 💁‍♀️ 구현 기능
+## 📍사이트 구현 플로우
 
-Front-end
+회원가입(일반/카카오) > 로그인 > 메인페이지 > 항공예약페이지 > 숙박 메인페이지 > 숙박 상세페이지
 
-#### 회원가입, 로그인
+# 💁‍♀️ 담당 및 구현기능
 
-- 이메일인증 회원가입, 로그인, 이용약관 체크박스 구현
-- 카카오를 통한 회원가입, 로그인
-- 로그인 성공시 메인페이지로 이동
+- [마이리얼트립 클론 프로젝트 코드정리 바로가기](https://velog.io/@dev_cecy/%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD-%ED%81%B4%EB%A1%A0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
 
-#### 헤더 및 메인페이지
+1. **숙소 메인페이지**
 
-- 로그인시 헤더가 로그아웃으로 바뀌는 동적라우팅
-- 특정 페이지에는 다른 버젼의 헤더 렌더링
-- 슬라이더 라이브러리를 사용한 메인페이지 구현
+- 레이아웃 완벽구현
 
-#### 항공권
+2.  **숙소 리스트**
 
-- 슬라이더 라이브러리 사용한 항공권 메인페이지 레이아웃 구현
-- 백엔드 데이터를 통한 항공권 도시선택 메뉴 구현
-- 날짜 라이브러리 사용
-- 기본 성인 1명 기준 최대 9명 예약가능 인원수 체크박스 구현
-- 백엔드 데이터를 이용한 항공권 리스트
-- 쿼리스트링을 이용한 항공권 필터기능
-
-#### 숙소
-
-- 숙소 메인페이지 레이아웃 완벽구현
 - 백엔드 데이터를 이용한 숙소 리스트페이지 구현
 - 상단 메뉴 날짜선택창, 인원수 체크박스 구현
 - 쿼리스트링을 통한 좌측 모든 필터기능 구현
 - 하단 페이지네이션 구현
+
+3. **숙소 상세 페이지**
+
 - 백엔드 데이터를 이용한 숙소 상세페이지 구현
 - 상단 메뉴 날짜 선택창, 인원수 체크박스 구현
 - 지도보기 클릭시 새탭으로 보기 구현
@@ -65,15 +44,16 @@ Front-end
 - 위시리스트 모달창 좋아요 클릭기능
 - 숙소 선택시 모달창에 정보 업데이트 기능 구현
 
-#### 의외 부가적인 기술
+#### 기타 구현 사항
 
 - styled component 사용시 globalStyles.js , theme,js 를 통한 통일적인 레이아웃 구현
 
-Back-end
-
 ## 🎥 영상
 
-[클로닝 동영상](https://youtu.be/Ni-htqkWnf4)
+- [마이리얼트립 클론 프로젝트 회고록 바로가기](https://velog.io/@dev_cecy/%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD-%ED%81%B4%EB%A1%A0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
+- [마이리얼트립 클론 프로젝트 영상 바로가기](https://youtu.be/Ni-htqkWnf4)
+
+![mydongmyotrip_image](public/images/mydongmyotrip_image.png)
 
 ## 💎 레퍼런스
 
